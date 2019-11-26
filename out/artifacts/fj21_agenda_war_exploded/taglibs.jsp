@@ -13,5 +13,18 @@
 </head>
 <body>
 
+    <table>
+
+    <jsp:useBean id="dao" class="br.com.caelum.dao.ContatoDao"/>
+    <c:forEach var="contato" items="${dao.lista}">
+        <tr>
+            <td>${contato.nome}</td>
+            <td>${contato.email}</td>
+            <td>${contato.endereco}</td>
+            <td>${contato.dataNascimento}</td>
+        </tr>
+    </c:forEach>
+    </table>
+
 </body>
 </html>
