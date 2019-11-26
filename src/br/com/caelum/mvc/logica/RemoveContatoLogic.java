@@ -16,7 +16,7 @@ public class RemoveContatoLogic implements Logica {
         System.out.println(contato.getId());
         ContatoDao dao = new ContatoDao();
         dao.exclui(contato);
-        System.out.println("Excluindo contato");
-        return "taglibs.jsp";
+        System.out.println("Excluindo contato: " +  contato.getId());
+        return "mvc?logica=ListaContatosLogic";
     }
 }

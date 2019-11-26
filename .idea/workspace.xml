@@ -8,21 +8,19 @@
   <component name="ChangeListManager">
     <list default="true" id="c0479067-e29b-42a0-8120-7b8879329958" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/classes/br/com/caelum/mvc/logica/RemoveContatoLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/classes/br/com/caelum/mvc/logica/RemoveContatoLogic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/classes/br/com/caelum/servlet/AdicionaContatoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/classes/br/com/caelum/servlet/AdicionaContatoServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/classes/br/com/caelum/servlet/ControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/classes/br/com/caelum/servlet/ControllerServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/adiciona-contato.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/adiciona-contato.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/erro.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/taglibs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/taglibs.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/bemvindo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/bemvindo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fj21-agenda/br/com/caelum/mvc/logica/RemoveContatoLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fj21-agenda/br/com/caelum/mvc/logica/RemoveContatoLogic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/fj21-agenda/br/com/caelum/servlet/AdicionaContatoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fj21-agenda/br/com/caelum/servlet/AdicionaContatoServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/dao/ContatoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/dao/ContatoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fj21-agenda/br/com/caelum/servlet/ControllerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fj21-agenda/br/com/caelum/servlet/ControllerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/mvc/logica/RemoveContatoLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/mvc/logica/RemoveContatoLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/caelum/servlet/AdicionaContatoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/servlet/AdicionaContatoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/etc/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/servlet/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/servlet/ControllerServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/adiciona-contato.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/adiciona-contato.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/components/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/components/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/erro.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/etc/erro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/taglibs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/taglibs.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bemvindo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bemvindo.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +68,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\richard_docs\Caelum\fj21-agenda\web\WEB-INF\jsp" />
       <recent name="C:\richard_docs\Caelum\fj21-agenda\web" />
       <recent name="C:\richard_docs\Caelum\fj21-agenda\web\WEB-INF\pages" />
       <recent name="C:\richard_docs\Caelum\fj21-agenda\web\WEB-INF\pages\etc" />
@@ -95,7 +94,6 @@
     <configuration name="Tomcat 9.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.29" ALTERNATIVE_JRE_ENABLED="false">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="fj21-agenda:war exploded">
           <settings>
@@ -188,7 +186,8 @@
       <updated>1574679660331</updated>
       <workItem from="1574679664206" duration="5951000" />
       <workItem from="1574685666510" duration="7456000" />
-      <workItem from="1574766416445" duration="12629000" />
+      <workItem from="1574766416445" duration="18794000" />
+      <workItem from="1574786305324" duration="5614000" />
     </task>
     <servers />
   </component>
@@ -200,10 +199,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/fj21_agenda$Tomcat_9_0.ic" NAME="Tomcat 9.0 Coverage Results" MODIFIED="1574789074717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

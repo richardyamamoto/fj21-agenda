@@ -31,5 +31,10 @@
             Taglibs
         </button>
     </a>    <br/>
+    <a href="mvc?logica=ListaContatosLogic">
+        <button type="button">
+            Lista de Contatos
+        </button>
+    </a>    <br/>
     <%System.out.println("Tudo foi executado");%>
 </html>

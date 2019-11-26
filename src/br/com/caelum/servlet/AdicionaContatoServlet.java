@@ -20,7 +20,7 @@ import java.util.Date;
 @WebServlet("/adicionaContato")
 public class AdicionaContatoServlet extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         String nome = req.getParameter("nome");
         String email = req.getParameter("email");
