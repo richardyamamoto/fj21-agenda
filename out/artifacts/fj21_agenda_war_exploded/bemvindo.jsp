@@ -14,7 +14,7 @@
     <% String mensagem = "Hello JSP"; %>
     <% String nome = "Richard";%>
     <%= mensagem %><br/>
-    <a href="adiciona-contato.html">
+    <a href="adiciona-contato.jsp">
         <button type="button">
         Adicionar Contato
         </button>

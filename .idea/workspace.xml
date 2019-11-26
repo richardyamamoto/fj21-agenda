@@ -8,8 +8,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c0479067-e29b-42a0-8120-7b8879329958" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/taglibs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/taglibs.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/taglibs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/taglibs.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/adiciona-contato.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/bemvindo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/bemvindo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/adiciona-contato.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/adiciona-contato.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bemvindo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bemvindo.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,7 +175,7 @@
       <updated>1574679660331</updated>
       <workItem from="1574679664206" duration="5951000" />
       <workItem from="1574685666510" duration="7456000" />
-      <workItem from="1574766416445" duration="4812000" />
+      <workItem from="1574766416445" duration="5969000" />
     </task>
     <servers />
   </component>
