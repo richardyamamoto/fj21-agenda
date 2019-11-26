@@ -7,12 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0479067-e29b-42a0-8120-7b8879329958" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jstl_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jstl.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fj21-agenda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fj21-agenda.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/lib/jstl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/taglibs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/taglibs.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/bemvindo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bemvindo.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/taglibs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/taglibs.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,6 +41,7 @@
   </component>
   <component name="ProjectId" id="1U6amjBgs33yiGNZAPPRYEprwBa" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -174,7 +174,7 @@
       <updated>1574679660331</updated>
       <workItem from="1574679664206" duration="5951000" />
       <workItem from="1574685666510" duration="7456000" />
-      <workItem from="1574766416445" duration="1343000" />
+      <workItem from="1574766416445" duration="3497000" />
     </task>
     <servers />
   </component>

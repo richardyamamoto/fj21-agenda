@@ -13,17 +13,23 @@
 <body>
     <% String mensagem = "Hello JSP"; %>
     <% String nome = "Richard";%>
+    <%= mensagem %><br/>
     <a href="adiciona-contato.html">
         <button type="button">
         Adicionar Contato
         </button>
-    </a>
+    </a><br/>
+
     <a href="digita-idade.jsp">
         <button type="button">
             Digitar idade
         </button>
-    </a>
-    <%= mensagem %>
-    <br/>
+    </a><br/>
+
+    <a href="taglibs.jsp">
+        <button type="button">
+            Taglibs
+        </button>
+    </a>    <br/>
     <%System.out.println("Tudo foi executado");%>
 </html>
