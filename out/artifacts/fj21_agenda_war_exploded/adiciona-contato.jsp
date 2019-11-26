@@ -9,11 +9,11 @@
 </head>
 <body>
 
-    <form action="adicionaContato" method="post">
+    <form action="adicionaContato" method="get">
         Nome: <input type="text" name="nome"/> <br/>
         E-mail: <input type="text" name="email"/> <br/>
         Endereço: <input type="text" name="endereco"/> <br/>
-        Data de Nascimento: <data:campoData id="dataNascimento"></data:campoData> <br/>
+        Data de Nascimento: <input type="text" name="dataNascimento"/> <br/>
         <br/>
         <button type="submit">Gravar</button>
     </form>

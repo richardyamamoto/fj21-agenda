@@ -40,6 +40,7 @@ public class ContatoDao {
             List<Contato> contatos = new ArrayList<Contato>();
             while (resultSet.next()) {
                 Contato contato = new Contato();
+                contato.setId(resultSet.getLong("id"));
                 contato.setNome(resultSet.getString("nome"));
                 contato.setEmail(resultSet.getString("email"));
                 contato.setEndereco(resultSet.getString("endereco"));
@@ -53,6 +54,19 @@ public class ContatoDao {
             return contatos;
         }catch(SQLException err) {
             throw new RuntimeException(err);
+        }
+    }
+
+    public void exclui(Contato contato) {
+        String sqlQuery = "delete from contatos where id=?";
+        try{
+            PreparedStatement statement = connection.prepareStatement(sqlQuery);
+            statement.setLong(1, contato.getId());
+            statement.execute();
+            statement.close();
+            connection.close();
+        }catch(SQLException e) {
+            throw new RuntimeException(e);
         }
     }
 }

@@ -16,8 +16,9 @@
 <c:import url="components/header.jsp"/>
     <jsp:useBean id="dao" class="br.com.caelum.dao.ContatoDao"/>
         <table border="1">
-            <c:forEach varStatus="id" var="contato" items="${dao.lista}">
-                <tr bgcolor="#${id.count % 2 == 0 ? 'aaee88' : 'ffffff'}">
+            <c:forEach varStatus="index" var="contato" items="${dao.lista}">
+                <tr bgcolor="#${index.count % 2 == 0 ? 'aaee88' : 'ffffff'}">
+                    <td>${contato.id}</td>
                     <td>${contato.nome}</td>
                     <td>
 <%--                        Dois ifs--%>
@@ -40,6 +41,9 @@
                     <td>${contato.endereco}</td>
                     <td>
                         <fmt:formatDate value="${contato.dataNascimento.time}" pattern="dd/MM/yyyy"/>
+                    </td>
+                    <td>
+                        <a href="mvc?logica=RemoveContatoLogic&id=${contato.id}">Remover</a>
                     </td>
                 </tr>
             </c:forEach>

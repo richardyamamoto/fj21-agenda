@@ -3,6 +3,7 @@ package br.com.caelum.servlet;
 import br.com.caelum.dao.ContatoDao;
 import br.com.caelum.modelo.Contato;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -19,7 +20,7 @@ import java.util.Date;
 @WebServlet("/adicionaContato")
 public class AdicionaContatoServlet extends HttpServlet {
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         String nome = req.getParameter("nome");
         String email = req.getParameter("email");
@@ -44,13 +45,15 @@ public class AdicionaContatoServlet extends HttpServlet {
         ContatoDao dao = new ContatoDao();
         dao.adiciona(contato);
 
-        PrintWriter out = resp.getWriter();
-        out.println("<html>");
-        out.println("<body>");
-        out.println("<h2> Nome: " + contato.getNome() +  " adicionado com sucesso!</h2><br/>");
-        out.println("<h2> Endereco: " + contato.getEndereco() +  " adicionado com sucesso!</h2><br/>");
-        out.println("<h2> E-mail: " + contato.getEmail() +  " adicionado com sucesso!</h2><br/>");
-        out.println("</body>");
-        out.println("</html>");
+//        PrintWriter out = resp.getWriter();
+//        out.println("<html>");
+//        out.println("<body>");
+//        out.println("<h2> Nome: " + contato.getNome() +  " adicionado com sucesso!</h2><br/>");
+//        out.println("<h2> Endereco: " + contato.getEndereco() +  " adicionado com sucesso!</h2><br/>");
+//        out.println("<h2> E-mail: " + contato.getEmail() +  " adicionado com sucesso!</h2><br/>");
+//        out.println("</body>");
+//        out.println("</html>");
+        RequestDispatcher rd = req.getRequestDispatcher("/contato-adicionado.jsp");
+        rd.forward(req, resp);
     }
 }
