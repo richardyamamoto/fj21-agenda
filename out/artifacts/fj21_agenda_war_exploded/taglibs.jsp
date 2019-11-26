@@ -7,12 +7,13 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <html>
 <head>
     <title>Taglibs</title>
 </head>
 <body>
-
+<c:import url="components/header.jsp"/>
     <jsp:useBean id="dao" class="br.com.caelum.dao.ContatoDao"/>
         <table border="1">
             <c:forEach varStatus="id" var="contato" items="${dao.lista}">
@@ -37,10 +38,14 @@
                         </c:choose>
                     </td>
                     <td>${contato.endereco}</td>
-                    <td>${contato.dataNascimento}</td>
+                    <td>
+                        <fmt:formatDate value="${contato.dataNascimento.time}" pattern="dd/MM/yyyy"/>
+                    </td>
                 </tr>
             </c:forEach>
         </table>
-
+<footer>
+    <c:import url="components/footer.jsp"/>
+</footer>
 </body>
 </html>

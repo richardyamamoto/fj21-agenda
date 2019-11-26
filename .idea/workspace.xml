@@ -8,10 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0479067-e29b-42a0-8120-7b8879329958" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/taglibs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/taglibs.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/bemvindo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bemvindo.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/taglibs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/taglibs.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -174,7 +171,7 @@
       <updated>1574679660331</updated>
       <workItem from="1574679664206" duration="5951000" />
       <workItem from="1574685666510" duration="7456000" />
-      <workItem from="1574766416445" duration="3497000" />
+      <workItem from="1574766416445" duration="4812000" />
     </task>
     <servers />
   </component>
