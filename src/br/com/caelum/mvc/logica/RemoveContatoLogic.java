@@ -5,6 +5,7 @@ import br.com.caelum.modelo.Contato;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.sql.Connection;
 
 public class RemoveContatoLogic implements Logica {
     @Override
@@ -14,9 +15,11 @@ public class RemoveContatoLogic implements Logica {
         Contato contato = new Contato();
         contato.setId(id);
         System.out.println(contato.getId());
-        ContatoDao dao = new ContatoDao();
+//        Recupera dos atributos o objeto da conexão;
+        Connection connection = (Connection) req.getAttribute("conexao");
+        ContatoDao dao = new ContatoDao(connection);
         dao.exclui(contato);
         System.out.println("Excluindo contato: " +  contato.getId());
-        return "mvc?logica=ListaContatosLogic";
+        return "WEB-INF/jsp/operacao-sucesso.jsp";
     }
 }

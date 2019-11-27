@@ -19,41 +19,41 @@ import java.util.Date;
 
 @WebServlet("/adicionaContato")
 public class AdicionaContatoServlet extends HttpServlet {
-    @Override
-    protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-        String nome = req.getParameter("nome");
-        String email = req.getParameter("email");
-        String endereco = req.getParameter("endereco");
-        String dataEmTexto = req.getParameter("dataNascimento");
-        Calendar dataNascimento = null;
-
-        try{
-            Date data = new SimpleDateFormat("dd/MM/yyyy").parse(dataEmTexto);
-            dataNascimento = Calendar.getInstance();
-            dataNascimento.setTime(data);
-        }catch(ParseException err) {
-            System.out.println("Erro na conversão da data");
-        }
-
-        Contato contato = new Contato();
-        contato.setNome(nome);
-        contato.setEmail(email);
-        contato.setEndereco(endereco);
-        contato.setDataNascimento(dataNascimento);
-
-        ContatoDao dao = new ContatoDao();
-        dao.adiciona(contato);
-
-//        PrintWriter out = resp.getWriter();
-//        out.println("<html>");
-//        out.println("<body>");
-//        out.println("<h2> Nome: " + contato.getNome() +  " adicionado com sucesso!</h2><br/>");
-//        out.println("<h2> Endereco: " + contato.getEndereco() +  " adicionado com sucesso!</h2><br/>");
-//        out.println("<h2> E-mail: " + contato.getEmail() +  " adicionado com sucesso!</h2><br/>");
-//        out.println("</body>");
-//        out.println("</html>");
-        RequestDispatcher rd = req.getRequestDispatcher("/contato-adicionado.jsp");
-        rd.forward(req, resp);
-    }
+//    @Override
+//    protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+//
+//        String nome = req.getParameter("nome");
+//        String email = req.getParameter("email");
+//        String endereco = req.getParameter("endereco");
+//        String dataEmTexto = req.getParameter("dataNascimento");
+//        Calendar dataNascimento = null;
+//
+//        try{
+//            Date data = new SimpleDateFormat("dd/MM/yyyy").parse(dataEmTexto);
+//            dataNascimento = Calendar.getInstance();
+//            dataNascimento.setTime(data);
+//        }catch(ParseException err) {
+//            System.out.println("Erro na conversão da data");
+//        }
+//
+//        Contato contato = new Contato();
+//        contato.setNome(nome);
+//        contato.setEmail(email);
+//        contato.setEndereco(endereco);
+//        contato.setDataNascimento(dataNascimento);
+//
+//        ContatoDao dao = new ContatoDao();
+//        dao.adiciona(contato);
+//
+////        PrintWriter out = resp.getWriter();
+////        out.println("<html>");
+////        out.println("<body>");
+////        out.println("<h2> Nome: " + contato.getNome() +  " adicionado com sucesso!</h2><br/>");
+////        out.println("<h2> Endereco: " + contato.getEndereco() +  " adicionado com sucesso!</h2><br/>");
+////        out.println("<h2> E-mail: " + contato.getEmail() +  " adicionado com sucesso!</h2><br/>");
+////        out.println("</body>");
+////        out.println("</html>");
+//        RequestDispatcher rd = req.getRequestDispatcher("/operacao-sucesso.jsp");
+//        rd.forward(req, resp);
+//    }
 }

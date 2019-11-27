@@ -12,8 +12,8 @@ import java.util.List;
 public class ContatoDao {
     private Connection connection;
 
-    public ContatoDao() {
-        this.connection = new ConnectionFactory().getConnection();
+    public ContatoDao(Connection connection) {
+        this.connection = connection;
     }
     public void adiciona(Contato contato) {
         System.out.println("Start ContatoDao -> adiciona()");

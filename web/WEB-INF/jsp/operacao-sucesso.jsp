@@ -12,7 +12,8 @@
 </head>
 <body>
     <c:import url="../../components/header.jsp"/>
-        Contato ${param.nome} foi adicionado com sucesso!
+        Operação realizada com sucesso!
+        <a href="mvc?logica=ListaContatosLogic">Voltar</a>
     <c:import url="../../components/footer.jsp"/>
 </body>
 </html>

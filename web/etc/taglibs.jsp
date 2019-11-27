@@ -13,7 +13,7 @@
     <title>Taglibs</title>
 </head>
 <body>
-<c:import url="components/header.jsp"/>
+<c:import url="../components/header.jsp"/>
     <jsp:useBean id="dao" class="br.com.caelum.dao.ContatoDao"/>
         <table border="1">
             <c:forEach varStatus="index" var="contato" items="${dao.lista}">
@@ -49,7 +49,7 @@
             </c:forEach>
         </table>
 <footer>
-    <c:import url="components/footer.jsp"/>
+    <c:import url="../components/footer.jsp"/>
 </footer>
 </body>
 </html>

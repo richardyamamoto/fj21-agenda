@@ -12,26 +12,33 @@
       <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/classes/br/com/caelum/mvc/logica/AdicionaContatoLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/classes/br/com/caelum/mvc/logica/AdicionaContatoLogic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/classes/br/com/caelum/mvc/logica/AlteraContatoLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/classes/br/com/caelum/mvc/logica/AlteraContatoLogic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/classes/br/com/caelum/mvc/logica/ListaContatosLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/classes/br/com/caelum/mvc/logica/ListaContatosLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/jsp/altera-contato.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/jsp/altera-contato.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/jsp/lista-de-contatos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/jsp/lista-de-contatos.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/adiciona-contato.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/classes/br/com/caelum/mvc/logica/RemoveContatoLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/classes/br/com/caelum/mvc/logica/RemoveContatoLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/classes/br/com/caelum/servlet/AdicionaContatoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/classes/br/com/caelum/servlet/AdicionaContatoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/jsp/contato-adicionado.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/WEB-INF/jsp/contato-adicionado.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/bemvindo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/bemvindo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/digita-idade.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/lista-contato-scriptlet.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/mostra-idade.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/fj21_agenda_war_exploded/primeira-logica.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/fj21-agenda/br/com/caelum/dao/ContatoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fj21-agenda/br/com/caelum/dao/ContatoDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/fj21-agenda/br/com/caelum/mvc/logica/AdicionaContatoLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fj21-agenda/br/com/caelum/mvc/logica/AdicionaContatoLogic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/fj21-agenda/br/com/caelum/mvc/logica/AlteraContatoLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fj21-agenda/br/com/caelum/mvc/logica/AlteraContatoLogic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/fj21-agenda/br/com/caelum/mvc/logica/ListaContatosLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fj21-agenda/br/com/caelum/mvc/logica/ListaContatosLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fj21-agenda/br/com/caelum/mvc/logica/RemoveContatoLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fj21-agenda/br/com/caelum/mvc/logica/RemoveContatoLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fj21-agenda/br/com/caelum/servlet/AdicionaContatoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/fj21-agenda/br/com/caelum/servlet/AdicionaContatoServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/caelum/dao/ContatoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/dao/ContatoDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/caelum/mvc/logica/AdicionaContatoLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/mvc/logica/AdicionaContatoLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/caelum/mvc/logica/AlteraContatoLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/mvc/logica/AlteraContatoLogic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/caelum/mvc/logica/ListaContatosLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/mvc/logica/ListaContatosLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/servlet/ControllerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/servlet/ControllerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/altera-contato.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/altera-contato.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/lista-de-contatos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/lista-de-contatos.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/adiciona-contato.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/adiciona-contato.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/mvc/logica/RemoveContatoLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/mvc/logica/RemoveContatoLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/servlet/AdicionaContatoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/servlet/AdicionaContatoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/contato-adicionado.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/operacao-sucesso.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/bemvindo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/bemvindo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/contato-adicionado.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/contato-adicionado.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/digita-idade.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/etc/digita-idade.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/lista-contato-scriptlet.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/etc/lista-contato-scriptlet.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/mostra-idade.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/etc/mostra-idade.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/primeira-logica.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/etc/primeira-logica.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/taglibs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/etc/taglibs.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,11 +86,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\richard_docs\Caelum\fj21-agenda\web\etc" />
       <recent name="C:\richard_docs\Caelum\fj21-agenda\web\WEB-INF\jsp" />
       <recent name="C:\richard_docs\Caelum\fj21-agenda\web" />
       <recent name="C:\richard_docs\Caelum\fj21-agenda\web\WEB-INF\pages" />
       <recent name="C:\richard_docs\Caelum\fj21-agenda\web\WEB-INF\pages\etc" />
-      <recent name="C:\richard_docs\Caelum\fj21-agenda\web\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -199,7 +206,7 @@
       <workItem from="1574685666510" duration="7456000" />
       <workItem from="1574766416445" duration="18794000" />
       <workItem from="1574786305324" duration="5614000" />
-      <workItem from="1574851804476" duration="9130000" />
+      <workItem from="1574851804476" duration="13584000" />
     </task>
     <servers />
   </component>
