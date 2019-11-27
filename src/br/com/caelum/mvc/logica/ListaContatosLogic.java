@@ -12,6 +12,6 @@ public class ListaContatosLogic implements Logica {
     public String executa(HttpServletRequest req, HttpServletResponse res) throws Exception {
         List<?> contatos = new ContatoDao().getLista();
         req.setAttribute("contatos", contatos);
-        return "/WEB-INF/jsp/lista-de-contatos.jsp";
+        return "WEB-INF/jsp/lista-de-contatos.jsp";
     }
 }

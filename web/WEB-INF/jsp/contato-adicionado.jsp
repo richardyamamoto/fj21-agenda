@@ -11,6 +11,8 @@
     <title>Contato adicionado</title>
 </head>
 <body>
-    Contato ${param.nome} foi adicionado com sucesso!
+    <c:import url="../../components/header.jsp"/>
+        Contato ${param.nome} foi adicionado com sucesso!
+    <c:import url="../../components/footer.jsp"/>
 </body>
 </html>

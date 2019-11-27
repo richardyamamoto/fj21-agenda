@@ -17,22 +17,19 @@ public class AdicionaContatoLogic implements Logica {
         ContatoDao dao = new ContatoDao();
         Contato contato = new Contato();
 
-        String nome = req.getParameter("nome");
-        String email = req.getParameter("email");
-        String endereco = req.getParameter("endereco");
         String dataNascimento = req.getParameter("dataNascimento");
-        contato.setNome(nome);
-        contato.setEndereco(endereco);
-        contato.setEmail(email);
+        contato.setNome(req.getParameter("nome"));
+        contato.setEndereco(req.getParameter("endereco"));
+        contato.setEmail(req.getParameter("email"));
         String dataEmTexto =  dataNascimento;
 
-//        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
-//        Date dataFormatada = formatter.parse(dataEmTexto);
-//        Calendar calender = Calendar.getInstance();
-//        calender.setTime(dataFormatada);
-//        System.out.println(dataFormatada);
-        //contato.setDataNascimento(calender);
-        System.out.println(nome);
-        return "/contato-adicionado.jsp";
+        SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
+        Date dataFormatada = formatter.parse(dataEmTexto);
+        Calendar calender = Calendar.getInstance();
+        calender.setTime(dataFormatada);
+        contato.setDataNascimento(calender);
+
+        dao.adiciona(contato);
+        return "WEB-INF/jsp/contato-adicionado.jsp";
     }
 }

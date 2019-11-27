@@ -14,7 +14,7 @@
     <% String mensagem = "Hello JSP"; %>
     <% String nome = "Richard";%>
     <%= mensagem %><br/>
-    <a href="adiciona-contato.jsp">
+    <a href="WEB-INF/jsp/adiciona-contato.jsp">
         <button type="button">
         Adicionar Contato
         </button>
@@ -24,17 +24,25 @@
         <button type="button">
             Digitar idade
         </button>
-    </a><br/>
+    </a>
+    <br/>
 
     <a href="taglibs.jsp">
         <button type="button">
             Taglibs
         </button>
-    </a>    <br/>
+    </a>
+    <br/>
+
     <a href="mvc?logica=ListaContatosLogic">
         <button type="button">
             Lista de Contatos
         </button>
-    </a>    <br/>
+    </a>
+
+    <br/>
+    <br/>
+
+
     <%System.out.println("Tudo foi executado");%>
 </html>

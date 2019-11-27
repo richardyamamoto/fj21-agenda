@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <form action="AdicionaContatoLogic" method="get">
+    <form action="mvc?logica=AdicionaContatoLogic" method="post">
         Nome: <input type="text" name="nome"/> <br/>
         E-mail: <input type="text" name="email"/> <br/>
         Endereço: <input type="text" name="endereco"/> <br/>

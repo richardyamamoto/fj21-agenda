@@ -12,11 +12,15 @@
     <title>Alterar Contato</title>
 </head>
 <body>
-<form action=""></form>
-Nome: <input type="text" name="nome"/><br/>
-    Email: <input type="text" name="email"/><br/>
-    Endereço: <input type="text" name="endereco"/><br/>
-    Data de Nascimento: <input type="text" name="dataNascimento"/><br/>
-
+    <c:import url="../../components/header.jsp"/>
+    <form action="mvc?logica=AlteraContatoLogic&id=${param.id}" method="post">
+        Nome: <input type="text" name="nome" value="${contato.nome}"/><br/>
+        Email: <input type="text" name="email"/><br/>
+        Endereço: <input type="text" name="endereco"/><br/>
+        Data de Nascimento: <input type="text" name="dataNascimento"/><br/>
+        <br/>
+        <button type="submit">Atualizar</button>
+    </form>
+    <c:import url="../../components/footer.jsp"/>
 </body>
 </html>
